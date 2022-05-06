@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+   <!-- <groups>
+        <run>
+            <include name="HeaderTests"/>
+        </run>
+    </groups>-->
+    <test name="Test">
+        <classes>
+            <class name="liveProject.Activity1" />
+            <class name="liveProject.Activity2" />
+            <class name="liveProject.Activity3" />
+            <class name="liveProject.Activity4" />
+            <class name="liveProject.Activity5" />
+            <class name="liveProject.Activity6" />
+            <class name="liveProject.Activity7" />
+            <class name="liveProject.Activity8" />
+            <class name="liveProject.Activity9" />
+        </classes>
+    </test>
+</suite>
